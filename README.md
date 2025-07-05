@@ -65,4 +65,8 @@ Este script en PowerShell permite restaurar completamente un disco duro externo 
 ```powershell
 
 .\\Restaurar\_Memoria\_Luciano.ps1
+---
+
+🔧 Proyecto mantenido por [Luciano CM Inteligencia](https://github.com/LucianoCMInteligencia)
+
 
