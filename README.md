@@ -1,75 +1,24 @@
 ![Banner del proyecto](banner.png)
 
-\# Restaurar Memoria Externa - Luciano CM Inteligencia
-
-
-
-Este script en PowerShell permite restaurar completamente un disco duro externo para su uso como memoria externa limpia, eliminando restos de sistemas anteriores, creando estructura de carpetas y añadiendo un archivo `LEEME.txt` con firma digital y fecha.
-
-
+# 🧠 Restaurar Memoria Externa
+Script automatizado en PowerShell para limpiar, formatear y preparar una unidad externa (USB o disco duro) con estructura personalizada y archivo de verificación.
 
 ---
 
+## ⚙️ ¿Qué hace este script?
 
-
-\## 🛠️ Características
-
-
-
-\- Limpieza total del disco con `diskpart`
-
-\- Formateo en exFAT con etiqueta personalizada
-
-\- Estructura profesional de carpetas:
-
-&nbsp; - `Proyectos`
-
-&nbsp; - `Documentos`
-
-&nbsp; - `Respaldo`
-
-\- Archivo `LEEME.txt` con sello de identidad
-
-\- Script limpio y seguro, apto para automatización
-
-
+✅ Limpia el disco seleccionado (¡con cuidado!)  
+✅ Crea partición primaria y asigna letra  
+✅ Formatea en **exFAT** (compatible con la mayoría de sistemas)  
+✅ Crea carpetas base: `Proyectos`, `Documentos`, `Respaldo`  
+✅ Genera un archivo `LEEME.txt` con firma, fecha y hora
 
 ---
 
+## 🚀 Cómo usarlo
 
-
-\## ⚠️ Advertencia
-
-
-
-> Este script elimina completamente el contenido del disco seleccionado. Asegúrate de configurar correctamente el número de disco (`$disco`) y de que no haya datos importantes antes de ejecutarlo.
-
-
-
----
-
-
-
-\## 🚀 Uso rápido
-
-
-
-1\. Abre PowerShell como administrador
-
-2\. Edita el script si necesitas cambiar la letra o número de disco
-
-3\. Ejecuta:
-
-
-
-```powershell
-
-.\\Restaurar\_Memoria\_Luciano.ps1
----
-
-🔧 Proyecto mantenido por [Luciano CM Inteligencia](https://github.com/LucianoCMInteligencia)
-
-![Licencia: MIT](https://img.shields.io/badge/Licencia-MIT-blue.svg)
-
-
-
+1. Abre **PowerShell como Administrador**  
+2. Edita el script `restaurar_memoria.ps1` y ajusta las siguientes variables:
+   ```powershell
+   $disco = 3              # Número de disco externo (consulta con Get-Disk)
+   $letraUnidad = "G"      # Letra de unidad asignada
