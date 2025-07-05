@@ -22,3 +22,5 @@ Script automatizado en PowerShell para limpiar, formatear y preparar una unidad 
    ```powershell
    $disco = 3              # Número de disco externo (consulta con Get-Disk)
    $letraUnidad = "G"      # Letra de unidad asignada
+
+   📄 Licencia: [![Licencia CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
