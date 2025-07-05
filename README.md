@@ -1,3 +1,5 @@
+![Banner del proyecto](banner.png)
+
 \# Restaurar Memoria Externa - Luciano CM Inteligencia
 
 
