@@ -69,4 +69,7 @@ Este script en PowerShell permite restaurar completamente un disco duro externo 
 
 🔧 Proyecto mantenido por [Luciano CM Inteligencia](https://github.com/LucianoCMInteligencia)
 
+![Licencia: MIT](https://img.shields.io/badge/Licencia-MIT-blue.svg)
+
+
 
